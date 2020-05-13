@@ -1,0 +1,530 @@
+body {
+  font-family: "Roboto", sans-serif;
+  background-color: #0A0D13;
+}
+
+/*Header Style Start*/
+header {
+  height: 650px;
+  background: #ddd;
+  background-image: url("assets/img/dumblehead.jpg");
+  background-size: cover;
+  background-position: 50%;
+  padding: 30px 0 140px 0;
+  position: relative;
+  z-index: 1;
+}
+
+header:after {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background: #000;
+  content: "";
+  opacity: 0.5;
+  z-index: -1;
+}
+
+.mobile-menu-icon {
+  font-size: 30px;
+  color: white;
+  margin-top: 5px;
+  margin-left: 260px;
+}
+
+.mobile-menu-icon {
+  display: none;
+}
+
+nav ul {
+  margin-left: -40px;
+  padding: 0;
+  list-style: none;
+}
+
+nav ul li {
+  display: inline-block;
+  margin-left: 18px;
+}
+
+nav ul li a {
+  text-transform: uppercase;
+  color: #fff;
+  font-size: 12px;
+  padding: 5px 8px;
+  font-weight: 600;
+  border-radius: 5px;
+  transition: .6s;
+}
+
+nav ul li a:hover {
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+  background: rgb(41, 177, 255);
+}
+
+.header-content {
+  margin-top: 450px;
+  color: #fff;
+}
+
+.header-content h2 {
+  font-size: 40px;
+  font-weight: 300;
+}
+
+.header-content h2 span {
+  color: deeppink;
+  margin-left: -10px;
+  margin-bottom: 0;
+}
+
+.header-content p {
+  margin-top: -11px;
+  text-align: right;
+  margin-right: 25px;
+}
+
+.header-content p span {
+  color: yellow;
+}
+
+/*Header Style End*/
+
+
+
+/*Service Style Start*/
+.service_common {
+  height: 329px;
+}
+
+section.service {
+  padding: 180px 0px;
+  background: #0A0D13;
+  color: #fff;
+}
+
+.single-service i {
+  margin-bottom: 20px;
+  font-size: 50px;
+  transition: 0.5s;
+  color: crimson;
+}
+
+.single-service h4 {
+  text-transform: uppercase;
+  font-size: medium;
+  color: #c6ff1b;
+  font-size: 20px;
+}
+
+.single-service p {
+  margin-top: 20px;
+  font-size: 14px;
+}
+
+.single-service a {
+  display: block;
+  color: #4fdfff;
+  font-size: 14px;
+  position: relative;
+  text-decoration: none;
+}
+
+.single-service a i {
+  font-size: 14px;
+  position: absolute;
+  top: 4px;
+  left: 96px;
+  color: #4fdfff;
+}
+
+.single-service i:hover {
+  transform: rotate(180deg);
+}
+
+/*Service Style end*/
+.service-content {
+  background: #1A1D1F;
+  text-align: center;
+  padding: 50px;
+}
+
+.service-content p {
+  font-size: 14px;
+  color: rgb(255, 255, 255);
+  text-transform: uppercase;
+  font-weight: 400;
+}
+
+.service-content h2 {
+  color: #c8f63f;
+  text-transform: uppercase;
+  font-size: 35px;
+  font-weight: 300;
+  margin-top: -11px;
+}
+
+p.service_p {
+  color: rgb(238, 198, 198);
+  text-transform: none;
+}
+
+.service-content a {
+  color: #a2ca28;
+  font-size: 14px;
+  border-bottom: 1px solid #ccc;
+  color: rgb(238, 72, 105);
+  text-decoration: none;
+}
+
+.service-content img {
+  margin: 20px 0;
+  width: 20px;
+}
+
+.service_banner {
+  background: #ccc;
+  background-image: url("assets/img/dumble2.jpg");
+  background-size: cover;
+  background-position: center;
+  min-height: 350px;
+  position: relative;
+}
+
+div#service_content_row .service_common {
+  padding: 0;
+}
+
+div#service_content_row {
+  margin-top: 100px;
+}
+
+/* workout start */
+.dumble-start {
+  padding-top: 0px;
+  background: #872B3C;
+  margin-top: 0;
+  overflow: hidden;
+}
+
+.dumble-bg {
+  margin-top: -100px;
+}
+
+.banner_content {
+  position: absolute;
+  right: 30px;
+  bottom: 20px;
+  color: #fd6d5a;
+}
+
+.banner_content a {
+  color: #fd6d5a;
+  text-decoration: none;
+}
+
+.banner_content a:hover {
+  color: #5ac9fd;
+}
+
+.banner_content a span {
+  color: white;
+}
+
+/* service row two start */
+.service_content_row_two {
+  margin-top: 0 !important;
+}
+
+.service_banner2 {
+  background-image: url(assets/img/body.jpg);
+  background-size: cover;
+  background-position: center;
+  min-height: 350px;
+  position: relative;
+}
+
+.service_banner2 .banner_content {
+  position: absolute;
+  left: 35px;
+  bottom: 20px;
+}
+
+/* service row two end */
+
+/* workout end */
+
+
+/* lifestyle start */
+.life-style {
+  background: #091211;
+}
+
+.service_content_bg {
+  background-image: url(assets/img/run.jpg);
+  background-size: cover;
+  background-position: center;
+  min-height: 350px;
+}
+
+.surfer_bg {
+  background-image: url(assets/img/shoe.jpg);
+  background-size: cover;
+  background-position: center;
+  min-height: 350px;
+}
+
+.surfer_bg h4 {
+  font-size: 14px;
+  color: rgb(226, 72, 72);
+  margin-top: 50px;
+  margin-left: 50px;
+}
+
+.surfer_bg h5 {
+  font-size: 14px;
+  color: rgb(226, 72, 72);
+  margin-top: 50px;
+  margin-left: 120px;
+}
+
+.lifestyle-track {
+  position: relative;
+}
+
+.lifestyle-track i {
+  position: absolute;
+  right: 224px;
+  top: 140px;
+  font-size: 25px;
+  color: lightgray;
+}
+
+.lifestyle-track .service_p {
+  margin-top: 79px;
+}
+
+.service_banner_summer {
+  background-color: #c2f625;
+  color: rgb(0, 0, 0);
+  padding: 60px;
+  min-height: 350px;
+}
+
+.service_banner_summer h2 {
+  font-size: 30px;
+  text-transform: uppercase;
+  font-weight: 400;
+  color: rgb(23, 28, 37);
+}
+
+.service_banner_summer p {
+  font-size: 14px;
+  font-weight: 300;
+  margin-top: 15px;
+}
+
+#blackberry {
+  background-image: url(assets/img/blackberry.png);
+  background-size: cover;
+  background-position: center;
+  min-height: 330px;
+}
+
+#mango {
+  background-image: url(assets/img/fruit.png);
+  background-size: cover;
+  background-position: center;
+  min-height: 330px;
+}
+
+.involved-yourself {
+  min-height: 330px !important;
+  background-color: white;
+}
+
+.involved-yourself h6 {
+  color: rgb(230, 69, 69);
+  text-transform: uppercase;
+}
+
+.involved-yourself h2 {
+  color: #93bb19;
+  padding: 10px 0px 20px 0px;
+}
+
+.eating-habits {
+  background-color: #c2f625;
+  color: white;
+  text-align: left !important;
+  min-height: 330px !important;
+}
+
+.eating-habits h2 {
+  color: rgb(77, 76, 76);
+  padding-bottom: 20px;
+  font-size: 24px;
+  font-weight: 400;
+}
+
+.eating-habits p {
+  color: rgb(255, 255, 255);
+}
+
+.eating-habits {
+  position: relative;
+}
+
+.eating-habits i {
+  color: white;
+  position: absolute;
+  top: 75px;
+  right: 35px;
+  font-size: 35px;
+}
+
+/* lifestyle end */
+
+
+
+/* Leader start */
+.leader {
+  background-image: url(assets/img/cicle.jpg);
+  background-size: cover;
+  background-position: center;
+  overflow: hidden;
+  color: white;
+  clip-path: polygon(50% 0%, 100% 0, 100% 89%, 47% 100%, 0 88%, 0 0);
+}
+
+.leader-content {
+  text-align: center;
+  width: 50%;
+  margin: 200px auto;
+  overflow: hidden;
+}
+
+.leader-content h1 {
+  font-weight: 300;
+}
+
+.leader-content p {
+  margin-top: 30px;
+}
+
+/* Leader end */
+
+
+
+
+/* Footer style start */
+footer {
+  padding: 200px 0px 20px 0px;
+  background: #0A0D13;
+  color: white;
+  margin-top: -100px;
+}
+
+footer h6 {
+  color: rgb(184, 240, 30);
+  text-transform: uppercase;
+}
+
+.leader-content h2 {
+  text-transform: uppercase;
+}
+
+footer .resources p {
+  font-weight: 300;
+}
+
+.footer-social-icons ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.footer-social-icons ul li {
+  display: inline-block;
+  margin-left: 20px;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  text-align: center;
+  font-size: 23px;
+  line-height: 2.1;
+  transition: 2s;
+  transform: rotate(0deg);
+}
+
+.footer-social-icons ul li:hover {
+  transform: rotate(360deg);
+}
+
+.footer-social-icons ul li:nth-child(1) {
+  margin-left: 0;
+  background: rgb(29, 110, 165);
+}
+
+.footer-social-icons ul li:nth-child(2) {
+  background: rgb(76, 213, 255);
+}
+
+.footer-social-icons ul li:nth-child(3) {
+  background: red;
+}
+
+.footer-social-icons ul li:nth-child(4) {
+  background: rgb(18, 105, 146);
+}
+
+.footer-social-icons {
+  margin-top: 20px;
+}
+
+.footer-social-icons ul li a {
+  color: #fff;
+}
+
+footer .form-common {
+  padding: 3px;
+}
+
+.form-control {
+  line-height: 0.5;
+  ;
+}
+
+.form-common button {
+  border: none;
+  color: rgb(255, 255, 255);
+}
+
+footer form input,
+footer form button {
+  padding: 20px !important;
+  box-sizing: border-box;
+  height: 50px !important;
+}
+
+footer .copyright {
+  font-weight: 300;
+  color: rgb(147, 227, 251);
+  text-align: center;
+  margin-top: 90px;
+}
+
+footer .copyright i {
+  color: rgb(255, 58, 58);
+  font-size: 25px;
+  transition: 1s;
+}
+
+footer .copyright i:hover {
+  color: rgb(192, 255, 17);
+}
+
+/* Footer style end */
